@@ -19,5 +19,6 @@ public class TestClient {
 		System.out.println(target.path("messages").path("xml").request(MediaType.APPLICATION_XML).get(String.class));
 		System.out.println(target.path("messages").path("json").request(MediaType.APPLICATION_JSON).get(String.class));
 
+
 	}
 }
